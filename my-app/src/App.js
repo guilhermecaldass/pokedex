@@ -1,20 +1,12 @@
-import React, { useState, useEffect } from 'react';
 import './App.css';
 import Header from './components/Header';
 import Loading from './components/Loading';
 import Pokedex from './components/Pokedex';
-import getpokemons from './services/pokeapi';
+import usePokemons from './services/usePokemons';
 
 function App() {
-  const [pokemons, setPokemons] = useState(null);
-
-  useEffect(() => {
-    async function fetchPokemons() {
-      const pokemon = await getpokemons();
-      setPokemons(pokemon.results);
-    }
-    fetchPokemons();
-  }, []);
+  
+  const pokemons = usePokemons()
 
   return (
     <div className="App">
@@ -33,3 +25,7 @@ function App() {
 }
 
 export default App;
+
+
+
+
