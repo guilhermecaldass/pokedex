@@ -3,7 +3,7 @@ import React from 'react'
 const Pokedex = ({name, url}) => {
 
   return (
-    <div>
+    <div className='pokemon'>
     <p>
     {name}
     </p>
