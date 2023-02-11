@@ -1,9 +1,9 @@
 import React from 'react'
 
 const Pokedex = ({name, url}) => {
-  
+
   return (
-    <>
+    <div>
     <p>
     {name}
     </p>
@@ -11,7 +11,7 @@ const Pokedex = ({name, url}) => {
     <p>
     {url} 
     </p>
-    </>
+    </div>
   )
 }
 
