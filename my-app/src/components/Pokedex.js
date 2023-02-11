@@ -1,10 +1,17 @@
 import React from 'react'
 
-const Pokedex = () => {
+const Pokedex = ({name, url}) => {
+  
   return (
-    <div>
-      
-    </div>
+    <>
+    <p>
+    {name}
+    </p>
+
+    <p>
+    {url} 
+    </p>
+    </>
   )
 }
 
