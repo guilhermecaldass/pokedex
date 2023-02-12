@@ -24,9 +24,7 @@ const Pokedex = ({name, url}) => {
 
     <img src={sprite} alt={name}></img>
 
-    <p>
-    {url} 
-    </p>
+    
 
     </div>
   )
