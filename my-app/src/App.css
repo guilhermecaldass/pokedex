@@ -1,11 +1,22 @@
 .App {
   text-align: center;
+  background-image: url(imgs/f6a18ac56651ce4f9ca7e0230706a0b6.png);
+  position: relative;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+}
+.loading{
+  color: aliceblue;
+  font-size: 1.5rem;
+  margin: auto;
 }
 .pokedex{
   padding: 20px;
   display: flex;
   flex-wrap: wrap;
-  background-color: black;
+  background-color: rgb(250, 235, 215,0.2);
+  
   border-radius: 20px;
   width: 50%;
   
@@ -18,8 +29,7 @@
   
   display: inline;
   background-color: #61dafb;
-  height: 200px;
-  width: 300px;
+  width: 30%;
   border-radius: 30px;
   
   
