@@ -15,7 +15,11 @@ function App() {
         {!pokemons ? <Loading /> : (
           <>
             {pokemons.map(pokemon => (
-              <Pokedex key={pokemon.name} name={pokemon.name} url={pokemon.url} />
+              <Pokedex
+               key={pokemon.name}
+               name={pokemon.name}
+               url={pokemon.url} 
+              />
             ))}
           </>
         )}
