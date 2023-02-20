@@ -6,11 +6,7 @@
   /* background-attachment: fixed; */
   background-size: cover ;
 }
-.loading{
-  color: aliceblue;
-  font-size: 1.5rem;
-  margin: auto;
-}
+
 .pokedex{
   padding: 20px;
   display: flex;
@@ -21,15 +17,4 @@
   
   margin: auto;
   margin-bottom: 100px;
-}
-.pokemon{
-  margin: auto;
-  margin-top: 20px;
-  
-  display: inline;
-  background-color: #61dafb;
-  width: 30%;
-  border-radius: 30px;
-  
-  
 }

@@ -1,4 +1,5 @@
 import React from 'react'
+import style from './Pokedex.module.css'
 import { useState, useEffect } from 'react';
 
 
@@ -15,7 +16,8 @@ const Pokedex = ({name, url}) => {
   }, [url]);
 
   return (
-    <div className='pokemon'>
+    
+    <div className={style.pokemon}>
     
     
     <p>
