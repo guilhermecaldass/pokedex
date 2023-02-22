@@ -20,12 +20,12 @@ const Pokedex = ({name, url}) => {
     <div className={style.pokemon}>
     
     
-    <p>
+
+    <img className={style.pokeImg} src={sprite} alt={name}></img>
+
+    <p className={style.pokeInf}>
     {name}
     </p>
-
-    <img src={sprite} alt={name}></img>
-
     
 
     </div>

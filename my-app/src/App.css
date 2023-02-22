@@ -1,20 +1,22 @@
 .App {
   text-align: center;
-  background-image: url(imgs/f6a18ac56651ce4f9ca7e0230706a0b6.png);
+  background-image: url(imgs/117920-pokemon-ball-vector-gratis-vetor.jpg);
   /* position: absolute; */
-  background-repeat: no-repeat;
+  background-repeat: repeat;
   /* background-attachment: fixed; */
-  background-size: cover ;
+  background-size: contain ;
 }
 
 .pokedex{
-  padding: 20px;
+  
+  padding: 2%;
   display: flex;
   flex-wrap: wrap;
-  background-color: black;
+ 
+  
   
   width: 50%;
   
   margin: auto;
-  margin-bottom: 100px;
+
 }
