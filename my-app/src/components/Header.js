@@ -2,10 +2,9 @@ import React from 'react'
 
 const Header = () => {
   return (
-    <div>
+    <header>
       <h1> pokedex</h1>
-      <hr />
-    </div>
+    </header>
   )
 }
 
