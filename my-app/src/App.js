@@ -21,6 +21,7 @@ function App() {
                 key={pokemon.name}
                 name={pokemon.name}
                 url={pokemon.url}
+                types={pokemon.types}
               />
             ))}
             <Footer />

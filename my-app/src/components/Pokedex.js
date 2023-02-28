@@ -3,7 +3,7 @@ import style from './Pokedex.module.css'
 import { useState, useEffect } from 'react';
 
 
-const Pokedex = ({name, url}) => {
+const Pokedex = ({name, url, types}) => {
   const [sprite, setSprite] = useState(null);
 
   useEffect(() => {
@@ -26,6 +26,8 @@ const Pokedex = ({name, url}) => {
     <p className={style.pokeInf}>
     {name}
     </p>
+
+    <p>Tipo:{types}</p>
     
 
     </div>
