@@ -15,6 +15,11 @@ const Pokedex = ({name, url, types}) => {
     fetchSprite();
   }, [url]);
 
+
+  const handleClick=()=>{
+    console.log('fluiu');
+  }
+
   return (
     
     <div className={style.pokemon}>
@@ -27,7 +32,7 @@ const Pokedex = ({name, url, types}) => {
     {name}
     </p>
 
-    <p>Tipo:{types}</p>
+    <button onClick={handleClick}>Info</button>
     
 
     </div>
