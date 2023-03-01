@@ -12,6 +12,16 @@ function PokemonInfo(props) {
   return (
  <>
  <button onClick={handleClick}>info</button>
+ {
+    info&&(
+        <div>
+
+        <p>type:</p>
+        <p>hp:</p>
+
+        </div>
+    )
+ }
  </>
   );
 }
