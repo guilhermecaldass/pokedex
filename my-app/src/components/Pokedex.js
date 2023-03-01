@@ -28,7 +28,7 @@ const Pokedex = ({name, url, types}) => {
 
     <img className={style.pokeImg} src={sprite} alt={name}></img>
 
-    <p className={style.pokeInf}>
+    <p className={style.pokeName}>
     {name}
     </p>
 
