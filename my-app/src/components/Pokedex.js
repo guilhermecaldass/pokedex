@@ -1,6 +1,7 @@
 import React from 'react'
 import style from './Pokedex.module.css'
 import { useState, useEffect } from 'react';
+import PokemonInfo from './pokeInfo';
 
 
 const Pokedex = ({name, url, types}) => {
@@ -32,8 +33,9 @@ const Pokedex = ({name, url, types}) => {
     {name}
     </p>
 
-    <button onClick={handleClick}>Info</button>
+    {/* <button onClick={handleClick}>Info</button> */}
     
+    <PokemonInfo></PokemonInfo>
 
     </div>
   )
