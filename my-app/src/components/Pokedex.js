@@ -4,7 +4,7 @@ import { useState, useEffect } from 'react';
 import PokemonInfo from './pokeInfo';
 
 
-const Pokedex = ({name, url, types}) => {
+const Pokedex = ({name, url, type, hp}) => {
   const [sprite, setSprite] = useState(null);
 
   useEffect(() => {
@@ -35,7 +35,7 @@ const Pokedex = ({name, url, types}) => {
 
     {/* <button onClick={handleClick}>Info</button> */}
     
-    <PokemonInfo></PokemonInfo>
+    <PokemonInfo hp='22' type='tipo'/>
 
     </div>
   )

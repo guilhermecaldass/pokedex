@@ -16,8 +16,8 @@ function PokemonInfo(props) {
     info&&(
         <div>
 
-        <p>type:</p>
-        <p>hp:</p>
+        <p>type:{props.type}</p>
+        <p>hp:{props.hp}</p>
 
         </div>
     )
