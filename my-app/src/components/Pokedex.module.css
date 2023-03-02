@@ -1,9 +1,12 @@
 .pokemon{
     margin: auto;
     margin-top: 2%;
-    background-color: hsla(0, 4%, 32%, 0.9);
+    background-color: hsla(0, 10%, 26%, 0.6);
+    border: solid rgba(255, 0, 0, 0.486);
     border-radius: 50px;
     padding: 10px;
+    color: aliceblue;
+    min-width: 25%;
     
     
     }
@@ -17,6 +20,8 @@
     .pokeName{
       
     text-align: center;
+    color: aliceblue;
     font-size: 0.7em;
+    
         
     }
