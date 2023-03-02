@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-function PokeInfo({hp,type}) {
+const PokeInfo=({hp,type})=> {
   const [info, setInfo] = useState(false);
 
   const handleClick = () => {

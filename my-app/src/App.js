@@ -5,7 +5,7 @@ import Pokedex from "./components/Pokedex";
 import Footer from "./components/Footer";
 import usePokemons from "./services/usePokemons";
 
-function App() {
+const App=()=> {
   const pokemons = usePokemons();
 
   return (

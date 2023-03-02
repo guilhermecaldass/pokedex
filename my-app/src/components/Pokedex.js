@@ -5,7 +5,7 @@ import PokeInfo from "./pokeInfo";
 
 
 const Pokedex = ({ name, url }) => {
-  const [sprite, setSprite] = useState(null);
+  const [pokeImg, setPokeImg] = useState(null);
   const [hp, setHp] = useState(null);
   const [type, setType] = useState(null);
 
@@ -14,7 +14,7 @@ const Pokedex = ({ name, url }) => {
     const fetchInfo = async () => {
       const response = await fetch(url);
       const pokemon = await response.json();
-      setSprite(pokemon.sprites.front_default);
+      setPokeImg(pokemon.sprites.front_default);
       setHp(pokemon.stats[0].base_stat);
       setType(pokemon.types[0].type.name);
     };
@@ -25,7 +25,7 @@ const Pokedex = ({ name, url }) => {
     <div className={style.pokemon}>
      
 
-      <img className={style.pokeImg} src={sprite} alt={name}></img>
+      <img className={style.pokeImg} src={pokeImg} alt={name}></img>
 
       <p className={style.pokeName}>{name}</p>
 
