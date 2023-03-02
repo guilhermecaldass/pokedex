@@ -4,22 +4,21 @@ import { useState, useEffect } from 'react';
 import PokemonInfo from './pokeInfo';
 
 
-const Pokedex = ({name, url, type, hp}) => {
+const Pokedex = ({name, url, type}) => {
   const [sprite, setSprite] = useState(null);
+  const [hp, setHp] = useState('')
 
   useEffect(() => {
     const fetchSprite = async () => {
       const response = await fetch(url);
       const pokemon = await response.json();
       setSprite(pokemon.sprites.front_default);
+      setHp(pokemon.stats[0].base_stat)
+      
     };
     fetchSprite();
   }, [url]);
 
-
-  const handleClick=()=>{
-    console.log('fluiu');
-  }
 
   return (
     
@@ -33,9 +32,8 @@ const Pokedex = ({name, url, type, hp}) => {
     {name}
     </p>
 
-    {/* <button onClick={handleClick}>Info</button> */}
     
-    <PokemonInfo hp='22' type='tipo'/>
+    <PokemonInfo hp={hp} type={type}/>
 
     </div>
   )
