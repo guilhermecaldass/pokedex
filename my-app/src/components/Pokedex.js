@@ -1,42 +1,37 @@
-import React from 'react'
-import style from './Pokedex.module.css'
-import { useState, useEffect } from 'react';
-import PokemonInfo from './pokeInfo';
+import React from "react";
+import style from "./Pokedex.module.css";
+import { useState, useEffect } from "react";
+import PokeInfo from "./pokeInfo";
 
 
-const Pokedex = ({name, url, type}) => {
+const Pokedex = ({ name, url }) => {
   const [sprite, setSprite] = useState(null);
-  const [hp, setHp] = useState('')
+  const [hp, setHp] = useState(null);
+  const [type, setType] = useState(null);
+
 
   useEffect(() => {
-    const fetchSprite = async () => {
+    const fetchInfo = async () => {
       const response = await fetch(url);
       const pokemon = await response.json();
       setSprite(pokemon.sprites.front_default);
-      setHp(pokemon.stats[0].base_stat)
-      
+      setHp(pokemon.stats[0].base_stat);
+      setType(pokemon.types[0].type.name);
     };
-    fetchSprite();
+    fetchInfo();
   }, [url]);
 
-
   return (
-    
     <div className={style.pokemon}>
-    
-    
+     
 
-    <img className={style.pokeImg} src={sprite} alt={name}></img>
+      <img className={style.pokeImg} src={sprite} alt={name}></img>
 
-    <p className={style.pokeName}>
-    {name}
-    </p>
+      <p className={style.pokeName}>{name}</p>
 
-    
-    <PokemonInfo hp={hp} type={type}/>
-
+      <PokeInfo hp={hp} type={type} />
     </div>
-  )
-}
+  );
+};
 
-export default Pokedex
+export default Pokedex;
