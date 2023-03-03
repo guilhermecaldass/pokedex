@@ -26,8 +26,8 @@ const App=()=> {
           </>
         )}
 
-        <Footer />
       </div>
+        <Footer />
     </div>
   );
 }
