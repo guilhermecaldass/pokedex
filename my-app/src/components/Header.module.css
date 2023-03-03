@@ -1,0 +1,15 @@
+.title{
+    padding: 20px;
+    color: aqua;
+    font-family: fantasy;
+    font-size: 50px;
+
+    text-shadow:
+     3px 3px 3px yellow, 
+     2px 2px 2px yellow,                    
+     2px 2px 2px yellow,                  
+     2px 2px 2px yellow;   
+}
+.img{
+    max-width: 8%;
+}
