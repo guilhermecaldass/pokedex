@@ -4,6 +4,7 @@ import Loading from "./components/Loading";
 import Pokedex from "./components/Pokedex";
 import Footer from "./components/Footer";
 import usePokemons from "./services/usePokemons";
+import img from './imgs/imgFooter.png'
 
 const App=()=> {
   const pokemons = usePokemons();
@@ -27,6 +28,7 @@ const App=()=> {
         )}
 
       </div>
+      <img className='img' src={img} alt='pokeball'></img>
         <Footer />
     </div>
   );
