@@ -1,11 +1,10 @@
 .pokemon{
     margin: auto;
     margin-top: 2%;
-    background-color: hsla(0, 10%, 26%, 0.6);
-    border: solid rgba(255, 0, 0, 0.486);
-    border-radius: 50px;
+    background-color: hsla(0, 0%, 100%, 0.88);
+    border: solid rgba(255, 0, 0, 0.76);
+    border-radius: 35%;
     padding: 10px;
-    color: aliceblue;
     min-width: 25%;
     
     
@@ -18,10 +17,14 @@
     }
 
     .pokeName{
-      
-    text-align: center;
-    color: aliceblue;
-    font-size: 0.7em;
+     color:yellow;
+     border: solid rgb(0, 132, 255);
+     background-color:  rgb(0, 132, 255);
+     padding: 0.5px;
+     border-radius: 50px;
+     width: 70%;
+     margin: auto;
+     font-size: 13px;
     
         
     }

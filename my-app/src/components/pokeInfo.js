@@ -10,13 +10,14 @@ const PokeInfo=({hp,type})=> {
 
   return (
     <>
+    <br />
       <button onClick={handleClick}>info</button>
       {
         info && (
-          <div>
-            <p>Type:{type}</p>
-            <p>Hp:{hp}</p>
-          </div>
+          <>  
+            <p>Type: {type}</p>
+            <p style={{ color:'rgb(8, 220, 8)'}}>Hp: {hp}</p>
+          </>
       )}
     </>
   );
