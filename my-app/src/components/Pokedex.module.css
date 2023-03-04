@@ -28,9 +28,6 @@
     
         
     }
-    .pokemon:hover{
-        background-color:;
-    }
     @media(max-width:500px){
         .pokemon{
             min-width: 40%;
