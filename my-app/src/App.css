@@ -11,9 +11,9 @@
   background-image: url(imgs/f6a18ac56651ce4f9ca7e0230706a0b6.png);
   /* position: absolute; */
   background-repeat: no-repeat;
-  background-position: center;
+  /* background-position: center; */
   background-attachment: fixed;
-  background-size: cover;
+  background-size: 100% 100%;
 }
 
 .pokedex{
@@ -32,4 +32,10 @@
 
 .img{
     max-width: 8%;
+}
+
+@media (max-width:500px) {
+  .pokedex{
+    width: 90%;
+  }
 }

@@ -2,7 +2,7 @@
     margin: auto;
     margin-bottom: 20px;
     background-color: hsla(0, 0%, 100%,0.5);
-    border: solid rgba(255, 0, 0, 0.76);
+    border: solid rgba(255, 0, 0, 0.45);
     border-radius: 35%;
     padding: 10px;
     min-width: 25%;
@@ -27,4 +27,9 @@
      font-size: 13px;
     
         
+    }
+    @media(max-width:500px){
+        .pokemon{
+            min-width: 40%;
+        }
     }
