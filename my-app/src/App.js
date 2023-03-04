@@ -28,8 +28,8 @@ const App=()=> {
         )}
 
       </div>
-      <img className='img' src={img} alt='pokeball'></img>
         <Footer />
+      <img  style={{margin:'15px'}} className='img' src={img} alt='pokeball'></img>
     </div>
   );
 }
