@@ -4,7 +4,7 @@
     border-radius: 40px;
     padding: 10px;
     font-size: 17px;
-    width: 65%;
+    width: 75%;
     margin: auto;
     
 }
@@ -15,4 +15,11 @@
 .p{
     padding: 5px;
   
+}
+
+@media(max-width:500px){
+
+    .footer{
+        width: 90%;
+    }
 }
