@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/pokedex/static/css/main.d8a5962d.css",
-    "main.js": "/pokedex/static/js/main.c01d47e5.js",
+    "main.css": "/pokedex/static/css/main.ace759ee.css",
+    "main.js": "/pokedex/static/js/main.4efcf654.js",
     "static/js/787.28cb0dcd.chunk.js": "/pokedex/static/js/787.28cb0dcd.chunk.js",
     "static/media/117920-pokemon-ball-vector-gratis-vetor.jpg": "/pokedex/static/media/117920-pokemon-ball-vector-gratis-vetor.383fb375b6c15113acae.jpg",
     "static/media/imgFooter.png": "/pokedex/static/media/imgFooter.9fc0eeaeda972e93ebc7.png",
     "index.html": "/pokedex/index.html",
-    "main.d8a5962d.css.map": "/pokedex/static/css/main.d8a5962d.css.map",
-    "main.c01d47e5.js.map": "/pokedex/static/js/main.c01d47e5.js.map",
+    "main.ace759ee.css.map": "/pokedex/static/css/main.ace759ee.css.map",
+    "main.4efcf654.js.map": "/pokedex/static/js/main.4efcf654.js.map",
     "787.28cb0dcd.chunk.js.map": "/pokedex/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d8a5962d.css",
-    "static/js/main.c01d47e5.js"
+    "static/css/main.ace759ee.css",
+    "static/js/main.4efcf654.js"
   ]
 }
