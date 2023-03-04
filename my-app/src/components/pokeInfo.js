@@ -1,11 +1,19 @@
 import { useState } from "react";
 import style from './pokeinfo.module.css'
 
+
+
 const PokeInfo=({hp,type})=> {
   const [info, setInfo] = useState(false);
+  
+  
+  const houverb=()=> !info ? console.log('0') :console.log('1');
 
+  
   const handleClick = () => {
     setInfo(!info);
+
+   houverb()
     console.log(info);
   };
 
