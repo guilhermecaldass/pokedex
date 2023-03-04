@@ -1,4 +1,5 @@
 import { useState } from "react";
+import style from './pokeinfo.module.css'
 
 const PokeInfo=({hp,type})=> {
   const [info, setInfo] = useState(false);
@@ -11,12 +12,13 @@ const PokeInfo=({hp,type})=> {
   return (
     <>
     <br />
-      <button onClick={handleClick}>info</button>
+      <button  className={style.pokeButton} onClick={handleClick}>info {info?'⏫':'🔽' }</button>
+      
       {
         info && (
           <>  
             <p>Type: {type}</p>
-            <p style={{ color:'rgb(8, 220, 8)'}}>Hp: {hp}</p>
+            <p className={style.pokeHp}>Hp: {hp}</p>
           </>
       )}
     </>

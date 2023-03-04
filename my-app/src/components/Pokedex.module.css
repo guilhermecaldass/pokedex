@@ -1,7 +1,7 @@
 .pokemon{
     margin: auto;
     margin-top: 2%;
-    background-color: hsla(0, 0%, 100%, 0.88);
+    background-color: hsla(0, 0%, 100%,0.9);
     border: solid rgba(255, 0, 0, 0.76);
     border-radius: 35%;
     padding: 10px;
