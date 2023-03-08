@@ -9,12 +9,22 @@
 .App {
   text-align: center;
   background-image: url(imgs/f6a18ac56651ce4f9ca7e0230706a0b6.png);
+
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  background-size: cover;
+}
+/*
+.capa{
+  background-image: url(imgs/f6a18ac56651ce4f9ca7e0230706a0b6.png);
   position: absolute;
   background-repeat: no-repeat;
   background-position: center;
   background-attachment: fixed;
-  background-size: cover;
-}
+  background-size: cover; 
+  background-color: black;
+} */
 
 .pokedex{
   

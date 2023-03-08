@@ -11,6 +11,9 @@ const App=()=> {
 
   return (
     <div className="App">
+      {/* <img src='' className="capa">
+
+      </img> */}
       <Header />
       <div className="pokedex">
 
