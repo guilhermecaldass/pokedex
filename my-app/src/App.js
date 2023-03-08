@@ -4,21 +4,23 @@ import Loading from "./components/Loading";
 import Pokedex from "./components/Pokedex";
 import Footer from "./components/Footer";
 import usePokemons from "./services/usePokemons";
-import img from './imgs/imgFooter.png'
+import img from "./imgs/imgFooter.png";
+ import imgg from "./imgs/f6a18ac56651ce4f9ca7e0230706a0b6.png";
 
-const App=()=> {
+const App = () => {
   const pokemons = usePokemons();
 
   return (
     <div className="App">
-      {/* <img src='' className="capa">
+      <div>
 
-      </img> */}
+      <img src={imgg} alt="" className="capa"></img>
+      </div>
       <Header />
       <div className="pokedex">
-
-        {!pokemons ? <Loading />  : 
-        (
+        {!pokemons ? (
+          <Loading />
+        ) : (
           <>
             {pokemons.map((pokemon) => (
               <Pokedex
@@ -26,15 +28,19 @@ const App=()=> {
                 name={pokemon.name}
                 url={pokemon.url}
               />
-          ))}
+            ))}
           </>
         )}
-
       </div>
-        <Footer />
-      <img  style={{margin:'15px'}} className='img' src={img} alt='pokeball'></img>
+      <Footer />
+      <img
+        style={{ margin: "15px" }}
+        className="img"
+        src={img}
+        alt="pokeball"
+      ></img>
     </div>
   );
-}
+};
 
 export default App;

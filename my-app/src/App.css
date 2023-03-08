@@ -8,23 +8,23 @@
 
 .App {
   text-align: center;
-  background-image: url(imgs/f6a18ac56651ce4f9ca7e0230706a0b6.png);
+  /* background-image: url(imgs/f6a18ac56651ce4f9ca7e0230706a0b6.png); */
 
-  background-repeat: no-repeat;
+  /* background-repeat: no-repeat;
   background-position: center center;
   background-attachment: fixed;
-  background-size: cover;
+  background-size: cover; */
 }
-/*
+
 .capa{
-  background-image: url(imgs/f6a18ac56651ce4f9ca7e0230706a0b6.png);
-  position: absolute;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-attachment: fixed;
-  background-size: cover; 
-  background-color: black;
-} */
+ position: fixed;
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+
+}
 
 .pokedex{
   
