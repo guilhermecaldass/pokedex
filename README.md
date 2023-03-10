@@ -1,4 +1,5 @@
 # pokedex
 <p>em construção
 
-<p>visualização 
+<h2>Visualização 
+<p> https://guilhermecaldass.github.io/pokedex/
