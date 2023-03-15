@@ -10,5 +10,11 @@
      3px 3px 3px yellow;   
 }
 .img{
-    max-width: 8%;
+    padding-top: 30px;
+    max-width: 6%;
+}
+@media(max-width:700px){
+    .img{
+        max-width: 20%;
+    }
 }

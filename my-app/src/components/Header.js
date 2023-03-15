@@ -5,8 +5,8 @@ import img from '../imgs/imgFooter.png'
 const Header = () => {
   return (
     <header>
-      <h1 className={style.title}> pokedex</h1>
        <img className={style.img} src={img} alt='pokeball'></img>
+      <h1 className={style.title}> pokedex</h1>
     </header>
   )
 }
