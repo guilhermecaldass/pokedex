@@ -1,9 +1,11 @@
 # pokedex
 <p>em construção
 
-Descrição:
-<p>.
+<h1>Descrição:
+<p>
 
 
-<h2>Visualização 
+<h2>Visualização:
 <p> https://guilhermecaldass.github.io/pokedex/
+
+<h1>tecnologias utilizadas:
