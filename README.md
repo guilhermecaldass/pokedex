@@ -8,7 +8,7 @@
 <h2>Visualização:
 <p> https://guilhermecaldass.github.io/pokedex/
 <hr>
-<img src ="myapp/src/imgs/capaproj.png" alt="">
+<img src ="my-app/src/imgs/capaproj.png" alt="">
 <hr>
 <h1>tecnologias utilizadas:
 <hr>
