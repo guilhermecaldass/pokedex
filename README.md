@@ -11,7 +11,7 @@
 <img src ="my-app/src/imgs/capaproj.png" alt="">
 <hr>
 <h1>tecnologias utilizadas:
-<hr>
+
 <ul>
 <li>React
 <li>Hookes
