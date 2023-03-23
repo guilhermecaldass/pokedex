@@ -10,7 +10,7 @@
 <hr>
 <img src ="my-app/src/imgs/capaproj.png" alt="">
 <hr>
-<h1>tecnologias utilizadas:
+<h1>Tecnologias utilizadas:
 
 
 <ul>
