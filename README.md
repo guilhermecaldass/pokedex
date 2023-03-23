@@ -12,7 +12,10 @@
 <hr>
 <h1>tecnologias utilizadas:
 
+
 <ul>
+<br>
+
 <li>React
 <li>Hookes
 <li>JSX
