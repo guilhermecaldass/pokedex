@@ -12,7 +12,7 @@ const Footer = () => {
       <nav>
         <a href="https://github.com/guilhermecaldass" target="blank">
           {" "}
-          <img className={style.imgFooter} alt="gitHub" src={img} />
+          <img className={style.imgFooter} alt="GitHub" src={img} />
         </a>
       </nav>
 

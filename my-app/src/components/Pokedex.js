@@ -25,7 +25,7 @@ const Pokedex = ({ name, url }) => {
     <div className={style.pokemon}>
      
 
-      <img className={style.pokeImg} src={pokeImg} alt={name}></img>
+      <img className={style.pokeImg} src={pokeImg} alt={`foto de ${name}`}></img>
 
       <p className={style.pokeName}>{name}</p>
 
